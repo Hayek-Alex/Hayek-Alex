@@ -1,0 +1,135 @@
+/***** NAVBAR *****/
+
+.navbar {
+    background-color: #00CBFF;
+    border-radius: 0;
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: px;
+    font-weight: bold;
+}
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #030027;
+    text-decoration: none;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* Navbar collapsed styles */
+.navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+    background-color: #030027;
+    border-radius: 4px;
+    border: 1px solid;
+    fill: #fff;
+    font-size: 16px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    background-color: #fff;
+    color: #242424;
+    fill: #242424;
+    border-color: #fff;
+
+}
+
+
+/*** JUMBOTRON ***/
+
+.jumbotron {
+    background-image: url("../assets/Topographic_Jumbotron.png");
+    text-align: center;
+    color: #fff;
+    background-color: #fff;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+.jumbotron h2 {
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
+}
+
+/*** CARD ***/
+
+.card {
+    background-color: #fff;
+    border-color: #00CBFF;
+    border-width: 3px;
+    width: 100%;
+}
+
+.card:hover {
+    border-color: #00055B;
+}
+
+.btn-primary {
+    background-color: #00CBFF;
+}
+
+/*** Basic Text Styles ***/
+
+#about-world {
+    max-height: 200px;
+}
+
+.resume h3 {
+    font-weight: bold;
+}
+
+
+hr {
+    border-color: white;
+    border-width: 2px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: #06002D;
+}
+
+a:hover {
+    color: #ebd122;
+}
+
+body {
+
+    font-family: 'Georgia', serif;
+    background-color: #000411;
+    color: #fff;
+}
+.card-body {
+background-color: #000A28;
+border-width: 2px;
+border-style: solid;
+border-color: #00055B;
+}
+
+/*** Images ***/
+
+.img {
+    border-color: #00CBFF;
+    border-width: 3px;
+    width: 100%;
+}
